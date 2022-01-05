@@ -2,7 +2,6 @@ public class Updatecd implements Database.Batchable<sObject> {
 
 public Database.QueryLocator start(Database.BatchableContext bc)
 {
-
 String query = 'SELECT Account.Id,Account.Name, Account.Description,Title,Description FROM Contact WHERE Account.Name!=null';
 return Database.getQueryLocator(query);
 
