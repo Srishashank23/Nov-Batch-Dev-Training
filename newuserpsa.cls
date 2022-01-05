@@ -10,9 +10,6 @@ PermissionSetAssignment Pa=new PermissionSetAssignment();
 Pa.PermissionSetId=permset.Id;
 Pa.AssigneeId=userId;
 newpermmission.add(Pa);
-
-
-
 }
 if(newpermmission != null)
 {
